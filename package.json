@@ -1,0 +1,32 @@
+{
+  "name": "e-commerce-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.3.9",
+    "@strapi/plugin-i18n": "4.3.9",
+    "@strapi/plugin-users-permissions": "4.3.9",
+    "@strapi/provider-upload-cloudinary": "^4.3.9",
+    "@strapi/strapi": "4.3.9",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "Carlos Luevano"
+  },
+  "strapi": {
+    "uuid": "15a2ea7a-126f-4225-b971-a417d9a5f660"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
